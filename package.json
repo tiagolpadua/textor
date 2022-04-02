@@ -1,0 +1,43 @@
+{
+  "name": "textor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js",
+    "lint:fix": "eslint *.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagolpadua/textor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagolpadua/textor/issues"
+  },
+  "homepage": "https://github.com/tiagolpadua/textor#readme",
+  "dependencies": {
+    "md5-file": "^5.0.0",
+    "natural": "^5.1.13",
+    "nedb": "^1.8.0",
+    "textract": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "jest": "^27.4.5",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.5.1"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
